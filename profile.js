@@ -82,25 +82,45 @@ const summary = (summary) => {
 };
 
 const projects = (projects) => {
+    
     const projectsList = projects.map(project => {
         return `
         <div class="project">
         
+            <h3>${project.name}</h3>
+            
             <div class="project-header">
 
-                <h3>${project.project}</h3>
+                
+                <p class="description">${project.description}</p>
                 
                 <span class="date">
                     ${project.duration}
                 </span>
+
             </div>
 
             <p class="role">
-                ${project.position}
+                ${project.role}
             </p>
 
+            <div class="links">
+                ${project.github ? `
+                <a href="${project.github}" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                ` : ''}
+                
+
+                ${project.demo ? `
+                <a href="${project.demo}" target="_blank">
+                    <i class="fas fa-globe"></i>
+                </a>
+                ` : ''}
+            </div>
+
             <ul>
-                ${project.responsibilities.map(resp => `<li>${resp}</li>`).join('')}
+                ${project.highlights.map(resp => `<li>${resp}</li>`).join('')}
             </ul>
 
             <div class="tech-stack">
@@ -246,6 +266,8 @@ function loadProfile() {
             `;
 
             body.appendChild(resume);
+
+            // console.log(body.innerHTML);
 
         })
         .catch(error => {
