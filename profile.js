@@ -41,15 +41,15 @@ const personalInfo = (info) => {
 
             <div class="social-links">
 
-                <a href="${info.github}">
+                <a href="${info.github}" target="_blank">
                     <i class="fab fa-github"></i>
                 </a>
 
-                <a href="${info.linkedin}">
+                <a href="${info.linkedin}" target="_blank">
                     <i class="fab fa-linkedin"></i>
                 </a>
 
-                <a href="${info.whatsapp}">
+                <a href="${info.whatsapp}" target="_blank">
                     <i class="fab fa-whatsapp"></i>
                 </a>
 

@@ -6,7 +6,7 @@
       "title": "Backend / Full-Stack Developer",
       "phone": "+201033153050",
       "email": "ziadnassar565@gmail.com",
-      "location": "El-marg, moasast El-zakah, Cairo, Egypt",
+      "location": "El-marg, Cairo, Egypt",
       "github": "https://github.com/ZiadSamirNassar",
       "linkedin": "https://www.linkedin.com/in/ziad-nassar-a42b0624a",
       "whatsapp": "https://wa.me/201033153050"
@@ -21,12 +21,66 @@
         "role": "(Team Leader) | AI & Dack End Developer",
         "duration": "Feb 2026 - Jun 2026",
         "highlights": [
-          "Led a team of 4 developers to design and implement a full-stack OMR system using Angular, NestJS, and MongoDB.",
-          "Developed a robust backend API with NestJS, implementing JWT authentication, role-based access control, and RESTful endpoints for user management, exam creation, and result processing.",
-          "Built a responsive frontend with Angular and Material-UI, enabling users to upload answer sheets, view results, and manage exams with an intuitive interface.",
-          "Integrated OpenCV and Tesseract OCR for accurate text extraction and image processing, achieving high precision in handwritten character recognition.",
-          "Optimized database queries and implemented caching strategies to improve system performance and reduce response times for large-scale exam processing.",
-          "Conducted thorough testing and debugging, ensuring system reliability and scalability for handling thousands of exam submissions simultaneously."
+          "Led a team of 4 developers to build an AI-powered Optical Mark Recognition (OMR) system for automated exam grading.",
+          "Designed and developed scalable backend services with NestJS, implementing JWT authentication, role-based access control, and RESTful APIs.",
+          "Integrated OpenCV and a CNN-based model to automate answer bubble detection and exam grading with high accuracy.",
+          "Built an asynchronous processing pipeline using Bull queues and a dedicated worker server to handle large batches of answer sheets without blocking API requests.",
+          "Architected the backend into dedicated application and worker services, enabling scalable background processing through Bull queues and Worker Threads.",
+          "Implemented event-driven communication between the backend and frontend, providing real-time progress updates and exam processing status."
+        ],
+
+        "tech_stack": [ "NestJS",  "MongoDB",  "Bull",  "Worker Threads",  "OpenCV",  "CNN",  "JWT",  "REST APIs"],
+        
+        "github": "",
+        "demo": ""
+      },
+
+      {
+        "name": "Financial Tracking System",
+        "description": "Full-stack personal finance application for tracking income, expenses, and financial activities with local database persistence.",
+        "role": "Full-stack Developer",
+        "duration": "Apr 2025 - Apr 2025",
+        "highlights": [
+          "Developed a full-stack financial tracking application using React, Express.js, Prisma ORM, and SQLite.",
+          "Designed and implemented RESTful APIs for managing income and expense records.",
+          "Built reusable React components and a multi-page interface for efficient financial management.",
+          "Integrated Prisma ORM with SQLite to provide reliable local data persistence and database management."
+        ],
+
+        "tech_stack": ["Angular", "NestJS", "MongoDB", "OpenCV"],
+        
+        "github": "",
+        "demo": ""
+      },
+
+      {
+        "name": "Sara7a Application",
+        "description": "Anonymous messaging platform with secure authentication and account management features.",
+        "role": "Backend Developer",
+        "duration": "Apr 2025 - Apr 2025",
+        "highlights": [
+          "Developed a secure RESTful backend using Express.js and MongoDB (Mongoose) for anonymous messaging.",
+          "Implemented JWT authentication with refresh tokens, account verification, password reset, and secure session management.",          "Integrated Prisma ORM with SQLite to provide reliable local data persistence and database management.",
+          "Applied security best practices including password hashing, rate limiting, CORS configuration, and request validation.",
+          "Designed scalable APIs for user management, anonymous messaging, and authentication workflows."
+        ],
+
+        "tech_stack": ["Express.js", "MongoDB", "Mongoose", "JWT", "Refresh Tokens", "bcrypt", "Nodemailer", "Joi", "Rate Limiting"],
+        
+        "github": "",
+        "demo": ""
+      },
+
+      {
+        "name": "Gym Management System",
+        "description": "A system for managing memberships, trainers, and training sessions within the gym.",
+        "role": "Front_End Developer",
+        "duration": "Apr 2025 - May 2025",
+        "highlights": [
+          "Developed responsive user interfaces for managing gym memberships, trainers, and training sessions using React and Bootstrap.",
+          "Built reusable React components and implemented client-side routing with React Router for a seamless user experience.",
+          "Designed and implemented the frontend of a real-time chat module integrated with WebSockets for instant communication.",
+          "Collaborated with the team to integrate frontend modules with backend APIs and deliver a complete gym management solution."
         ],
 
         "tech_stack": ["Angular", "NestJS", "MongoDB", "OpenCV"],
@@ -34,6 +88,7 @@
         "github": "",
         "demo": ""
       }
+      
       
     ],
     
