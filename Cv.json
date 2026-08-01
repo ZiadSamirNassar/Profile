@@ -47,7 +47,7 @@
           "Integrated Prisma ORM with SQLite to provide reliable local data persistence and database management."
         ],
 
-        "tech_stack": ["Angular", "NestJS", "MongoDB", "OpenCV"],
+        "tech_stack": ["Express.js", "Prisma", "SQLite", "React"],
         
         "github": "",
         "demo": ""
@@ -83,7 +83,7 @@
           "Collaborated with the team to integrate frontend modules with backend APIs and deliver a complete gym management solution."
         ],
 
-        "tech_stack": ["Angular", "NestJS", "MongoDB", "OpenCV"],
+        "tech_stack": ["React", "React Bootstrap", "WebSockets", "React Router"],
         
         "github": "",
         "demo": ""
